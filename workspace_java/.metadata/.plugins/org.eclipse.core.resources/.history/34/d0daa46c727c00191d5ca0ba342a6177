@@ -1,0 +1,15 @@
+package com.ch7;
+
+public class DVDVO {
+	private String dvd_title    =null;// 
+	private String dvd_no       =null;// 
+	private String dvd_rental   =null;// 
+	private int    dvd_r_price  =0;// 
+	private String dvd_r_date   =null;// 
+	private int    dvd_quantity =0;// 
+	private String dvd_date     =null;// 
+	private String dvd_price    =null;// 
+	private String movie_code   =null;// 
+	private String theme_code   =null;// 
+	private String rate_code    =null;// 
+}

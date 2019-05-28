@@ -1,0 +1,16 @@
+package com.ch7;
+
+public class BookVOSimulation {
+	public static void main(String args[]) {
+		BookVO bVO = new BookVO();//책정보를 하나만 담을 수 있다.
+		//방이 3개, 그안에 있는건 - null
+		BookVO bVOS[] = new BookVO[3];
+		for(BookVO bVO2:bVOS) {
+			System.out.println(bVO2);
+		}
+		for(int i=0;i<bVOS.length;i++) {
+			System.out.println(bVOS[i]);
+			
+		}
+	}
+}

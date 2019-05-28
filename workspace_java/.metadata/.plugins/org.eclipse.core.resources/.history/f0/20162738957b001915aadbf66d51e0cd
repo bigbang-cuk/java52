@@ -1,0 +1,10 @@
+package com.ch5;
+
+public class MemberSimulation3 {
+
+	public static void main(String[] args) {
+		MemberVO mVO = new MemberVO();
+		mVO = new MemberVO(10);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.ch6;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class p170_1Event implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String label = e.getActionCommand();//전송
+		if("전송".equals(label)) {
+			System.out.println("전송 버튼 클릭");
+		}
+	}
+
+}

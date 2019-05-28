@@ -1,0 +1,13 @@
+package com.ch7;
+
+public class ReturnTypeA {
+
+    int[] methodD(){
+    	return {10,20,30};
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
